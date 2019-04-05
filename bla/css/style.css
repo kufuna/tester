@@ -8,9 +8,9 @@ div.body {
 }
 div.body div.box {
 	width: 100%;
-/* 	position: sticky;
-	-webkit-position: sticky;
-	top:0; */
+	position: -webkit-sticky;
+  	position: sticky;
+	top: 0;
 }
 div.body div.box.hide {
 	visibility: hidden;
