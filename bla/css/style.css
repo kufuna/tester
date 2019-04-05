@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	background: pink;
+}
+div.body {
+	position: relative;
+	z-index: 100;
+}
+div.body div.box {
+	width: 100%;
+	position: relative;
+}
+div.body div.box.hide {
+	visibility: hidden;
+}
+div.body div.box:nth-child(even){
+	height: 500px;
+}
+div.body div.box:nth-child(odd){
+	height: 700px;
+}
+div.back div.box {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	visibility: hidden;
+}
+div.back div.box.show {
+	visibility: visible;
+}
+div.back div.box:nth-child(even){
+	height: 500px;
+}
+div.back div.box:nth-child(odd){
+	height: 700px;
+}
